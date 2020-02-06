@@ -1,12 +1,12 @@
 {
   "name": "@kazztech/github-repository-test",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "",
-  "main": "build/index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "transpile": "babel src -d ./build --copy-files",
-    "release": "npm publish ./build"
+    "transpile": "babel src -d ./ --copy-files",
+    "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
