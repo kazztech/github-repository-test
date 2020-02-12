@@ -1,3 +1,4 @@
 .babelrc
 .gitignore
-**/stories.js
+
+/**/stories.{js,tsx}
